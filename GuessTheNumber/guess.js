@@ -2,11 +2,13 @@
 
 const input=document.querySelector("#input")
 const h2=document.querySelector(".h2")
+const h3=document.querySelector(".h2")
+
 input.focus()
 const btn=document.querySelector("#btn")
 let random=Math.floor(Math.random()*100+1)
 
-let n=6
+let n=7
 
 
 input.addEventListener("keydown",(e)=>{
@@ -22,7 +24,7 @@ btn.addEventListener("click",()=>{
     console.log(random)
     if(input.value==random){
         
-        h2.textContent = "Master mind";
+        h2.textContent = `Mastermind. You have found. it was ${random}`;
         
         
     }else if(input.value<random){
@@ -41,6 +43,12 @@ btn.addEventListener("click",()=>{
     }
     input.value=''
     input.focus()
+
+
+    if(n==-1 && input!=random){
+        h3.textContent=`You have lost. Secret Number was ${random}
+        Refresh for new game`
+    }
 
 })
 
