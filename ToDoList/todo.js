@@ -37,10 +37,12 @@ input.addEventListener("keydown",(e)=>{
 })
 
 btn2.addEventListener("click",()=>{
-    ul.children.length===0 ? alert("There is no elemetn to delete") : ul.removeChild(ul.lastElementChild)
+     ul.removeChild(ul.lastElementChild)
 })
-// input.addEventListener("keyup",(e)=>{
-//     if(e.code="Backspace"){
-//         btn2.click()
-//     }
-// })
+
+
+input.addEventListener("keydown",(e)=>{
+    if(e.code=="Backspace"){
+        btn2.click()
+    }
+})
