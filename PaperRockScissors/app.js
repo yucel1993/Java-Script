@@ -55,8 +55,8 @@ btn.addEventListener("click",()=>{
 
 const createPcSelection=()=>{
   const pcArr=["rock","paper","scissor"]
-  // const pcRandom=pcArr[Math.floor(Math.random()*pcArr.length)]
-  const pcRandom="rock"
+  const pcRandom=pcArr[Math.floor(Math.random()*pcArr.length)]
+  
   console.log(pcRandom)
   pcImg.src=`./assets/${pcRandom}.png`
   pcImg.alt=pcRandom
