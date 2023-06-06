@@ -47,7 +47,7 @@ btn.addEventListener("click",()=>{
 
     if(n==-1 && input!=random){
         h3.textContent=`You have lost. Secret Number was ${random}
-        Refresh for new game`
+        Refresh the page for new game`
     }
 
 })
