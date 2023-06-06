@@ -6,7 +6,7 @@ const h3=document.querySelector(".h2")
 
 input.focus()
 const btn=document.querySelector("#btn")
-let random=Math.floor(Math.random()*100+1)
+let random=Math.floor(Math.random()*100)
 
 let n=7
 
