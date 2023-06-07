@@ -1,39 +1,32 @@
-// 
-const inputIncome = document.querySelector(".inputIncome");
-const btnIncome = document.querySelector(".btnIncome");
-const incomeResult = document.querySelector(".income");
-const expenseResult = document.querySelector(".expense");
-const netResult = document.querySelector(".net");
+// ! First income variable
 
 
+const incomeInput=document.querySelector(".inputIncome")
+const incomeBtn=document.querySelector("#button-addon2")
 
-let totalIncome = 0;
-let totalExpense = 0;
+// ! Result list assign
 
+const incomeResult=document.querySelector(".income")
+const expenseResult=document.querySelector(".expense")
+const netResult=document.querySelector(".net")
 
+let overIncome=0;
+let overExpense=0;
 
+// ! first adding event
 
-//! Add event listener to the button for income calcualtion 
-
-btnIncome.addEventListener("click", () => {
-    const value = inputIncome.value.trim(); //! Remove leading/trailing whitespace
-    if (value === '' || isNaN(parseFloat(value))) {
-        alert('Please enter a valid number for income.');
-        return; //! Stop execution if input is empty or not a number
+incomeBtn.addEventListener("click",()=>{
+    const value=incomeInput.value.trim()
+    if(value=='' || isNaN(parseFloat(value))){
+        alert("Enter the number")
+        return
     }
-    
-    const parsedValue = parseFloat(value);
-    totalIncome += parsedValue;
-    incomeResult.textContent = totalIncome;
-    netResult.textContent = totalIncome - totalExpense;
-    inputIncome.value = "";
-});
 
-
-
-
-//? Add event listener to the form in order to calculate the net income,date and expense
-
+    const parsedValue=parseFloat(value)
+    overIncome +=parsedValue
+    incomeResult.textContent=`${overIncome}\$`
+    netResult.textContent=`${overIncome}\$`
+})
 
 const form = document.querySelector('#form');
 const formBtn = document.querySelector('#formBtn');
@@ -60,12 +53,6 @@ form.addEventListener('submit', (e) => {
     alert('Expense must be a valid number.');
     return; //* Stop execution if expense is not a number
   }
-
-  //? Update expense
-  const expenseValue = parseFloat(expenseInput);
-  totalExpense += expenseValue;
-  expenseResult.textContent = totalExpense;
-  netResult.textContent = totalIncome - totalExpense;
 
 
 
@@ -106,43 +93,43 @@ form.addEventListener('submit', (e) => {
     tbody.appendChild(newRow);
   
 
+
+    //? Update expense
+    const expenseValue = parseFloat(expenseInput);
+    overExpense += expenseValue;
+    expenseResult.textContent = overExpense;
+    netResult.textContent = `${overIncome - overExpense}\$`;
+  
+  
+
+
   // Reset the form
   form.reset();
 });
 
 
 
-// Event delegation - Listen for click events on the table body
-tbody.addEventListener('click', (e) => {
-    // Check if the clicked element is a trash bin icon
-    if (e.target.classList.contains('fa-trash-can')) {
-      // Get the parent row of the clicked trash bin icon
-      const row = e.target.closest('tr');
-  
-      // Calculate the amount to subtract from the result values
-      const amount = parseFloat(row.querySelector('td:nth-child(4)').textContent);
-      const currentIncome = parseFloat(incomeResult.textContent);
-      const currentExpense = parseFloat(expenseResult.textContent);
-  
-      // Update the result values by subtracting the amount
-      incomeResult.textContent = currentIncome - amount;
-      expenseResult.textContent = currentExpense - amount;
-      netResult.textContent = parseFloat(incomeResult.textContent) - parseFloat(expenseResult.textContent);
-  
-      // Remove the row from the table body
-      row.remove();
-    }
-  });
+tbody.addEventListener("click",(e)=>{
+if(e.target.classList.contains("fa-trash-can")){
+    console.log(true)
+
+    const row=e.target.closest("tr")
+    const amount =parseFloat(row.querySelector('td:nth-child(4)').textContent)
+    const currentIncome=parseFloat(incomeResult.textContent)
+    const currentExpense=parseFloat(expenseResult.textContent)
+
+    incomeResult.textContent=`${currentIncome-amount}\$`
+    expenseResult.textContent=`${currentExpense-amount}\$`
+    netResult.textContent=`${parseFloat(incomeResult.textContent)-parseFloat(expenseResult.textContent)}\$`
+
+    row.remove()
+}
+})
 
 
 
+const refreshBtn=document.querySelector(".btn-warning")
 
-
-//   !Refresh Button
-
-  const refreshButton = document.querySelector('.btn-warning');
-
-  refreshButton.addEventListener('click', () => {
-    location.reload();
-  });
-  
+  refreshBtn.addEventListener("click",()=>{
+    location.reload()
+  })
