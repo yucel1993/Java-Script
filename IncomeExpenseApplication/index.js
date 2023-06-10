@@ -111,17 +111,16 @@ form.addEventListener('submit', (e) => {
 
 tbody.addEventListener("click",(e)=>{
 if(e.target.classList.contains("fa-trash-can")){
-    console.log(true)
+    
 
     const row=e.target.closest("tr")
     const amount =parseFloat(row.querySelector('td:nth-child(4)').textContent)
     const currentIncome=parseFloat(incomeResult.textContent)
     const currentExpense=parseFloat(expenseResult.textContent)
-
+    
     incomeResult.textContent=`${currentIncome-amount}\$`
     expenseResult.textContent=`${currentExpense-amount}\$`
     netResult.textContent=`${parseFloat(incomeResult.textContent)-parseFloat(expenseResult.textContent)}\$`
-
     row.remove()
 }
 })
