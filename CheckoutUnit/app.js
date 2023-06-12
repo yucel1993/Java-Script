@@ -37,6 +37,8 @@ const total=document.querySelector("#total")
 const myChart=document.querySelector("allProduct")
 
 const body=document.querySelector("body")
+const allProduct=document.querySelector("#allProduct")
+
 // !Variables
 
 
@@ -72,6 +74,7 @@ let priceApple = Number(AppleTotal.textContent);
       MacTotal.textContent = Number(MacQuantity.textContent) * macBook;
     }
     calculateTotalPrice(); // Call the function to update the total price
+    allPro()
   });
   
   MacbookMinBtn.addEventListener("click", (e) => {
@@ -87,6 +90,7 @@ let priceApple = Number(AppleTotal.textContent);
       MacTotal.textContent = Number(MacQuantity.textContent) * macBook;
     }
     calculateTotalPrice(); // Call the function to update the total price
+    allPro()
   });
   
   // Event listener for keyboard quantity changes
@@ -101,6 +105,7 @@ let priceApple = Number(AppleTotal.textContent);
       keyboardTotal.textContent = Number(keyboardQuantity.textContent) * keyboard;
     }
     calculateTotalPrice(); // Call the function to update the total price
+    allPro()
   });
   
   keyboardMinBtn.addEventListener("click", (e) => {
@@ -117,6 +122,7 @@ let priceApple = Number(AppleTotal.textContent);
         Number(keyboardQuantity.textContent) * keyboard;
     }
     calculateTotalPrice(); // Call the function to update the total price
+    allPro()
   });
   // Event listener for Apple quantity changes
   ApplePlusBtn.addEventListener("click", (e) => {
@@ -130,6 +136,7 @@ let priceApple = Number(AppleTotal.textContent);
       AppleTotal.textContent = Number(AppleQuantity.textContent) * mouse;
     }
     calculateTotalPrice(); // Call the function to update the total price
+    allPro()
   });
   
   AppleMinBtn.addEventListener("click", (e) => {
@@ -145,6 +152,7 @@ let priceApple = Number(AppleTotal.textContent);
       AppleTotal.textContent = Number(AppleQuantity.textContent) * mouse;
     }
     calculateTotalPrice(); // Call the function to update the total price
+    allPro()
   });
   // ...
   
@@ -198,6 +206,9 @@ body.addEventListener("click", (e) => {
     if(document.getElementsByClassName("main__product")[0].style.display = "none"){
         MacTotal.textContent="0"
         calculateTotalPrice();
+        quantityMac="0"
+        console.log(quantityMac)
+        allPro()
     }
     }
     else if(e.target.id == "keyboardTrash"){
@@ -205,12 +216,16 @@ body.addEventListener("click", (e) => {
     if(document.getElementsByClassName("main__product")[1].style.display = "none"){
         keyboardTotal.textContent="0"
         calculateTotalPrice();
+        quantityKeyboard="0"
+        allPro()
     }
     }else if(e.target.id == "appleTrash"){
         document.getElementsByClassName("main__product")[2].style.display = "none";
         if(document.getElementsByClassName("main__product")[2].style.display = "none"){
             AppleTotal.textContent="0"
             calculateTotalPrice();
+            quantityApple="0"
+            allPro()
         }
     }else if(e.target.id == "allTrash"){
         console.log(e.target.id)
@@ -221,116 +236,23 @@ body.addEventListener("click", (e) => {
         keyboardTotal.textContent="0"
         AppleTotal.textContent="0"
         calculateTotalPrice();
+        quantityMac="0"
+        quantityKeyboard="0"
+        quantityApple="0"
+        allPro()
 
     }
     })
 
 
-// const withOutMac=()=>{
-//     let allPrices =
-       
-//       parseFloat(AppleTotal.textContent) +
-//       parseFloat(keyboardTotal.textContent);
-//     console.log(allPrices);
-//     beforePrice.textContent = allPrices;
-//     console.log(allPrices)
-    
-
-    
-// // !Shipping section
-
-//     if (allPrices > 1250) {
-//         shippingPriceNumber.textContent = "Free delivery";
-//         shippingPrice.classList.remove("dolar");
-//       } else if(allPrices > 0) {
-//         shippingPriceNumber.textContent = "25.99";
-//         shippingPrice.classList.add("dolar");
-//       }else if(allPrices==0){
-//         shippingPriceNumber.textContent = "0"
-//       }
-    
-//       beforePrice.textContent = allPrices;
-
-//     //   !Tax section
-//      tax.textContent=allPrices * 0.18;
-
-//      if(allPrices==0){
-//         total.textContent="0"
-//      }else{
-//      total.textContent=allPrices + shippingPrice2 + allPrices * 0.18;
-//      }
-// }
-
-
-// const withoutKeyboard=()=>{
-
-//     let allPrices =
-//     parseFloat(MacTotal.textContent) +
-//     parseFloat(AppleTotal.textContent) ;
-//   console.log(allPrices);
-//   beforePrice.textContent = allPrices;
-//   console.log(allPrices)
-  
-
-  
-// // !Shipping section
-
-//   if (allPrices > 1250) {
-//       shippingPriceNumber.textContent = "Free delivery";
-//       shippingPrice.classList.remove("dolar");
-//     } else if(allPrices > 0) {
-//       shippingPriceNumber.textContent = "25.99";
-//       shippingPrice.classList.add("dolar");
-//     }else if(allPrices==0){
-//       shippingPriceNumber.textContent = "0"
-//     }
-  
-//     beforePrice.textContent = allPrices;
-
-//   //   !Tax section
-//    tax.textContent=allPrices * 0.18;
-
-//    if(allPrices==0){
-//       total.textContent="0"
-//    }else{
-//    total.textContent=allPrices + shippingPrice2 + allPrices * 0.18;
-//    }
-    
-// }
-
-// const withoutApple=()=>{
-
-
-//     let allPrices =
-//     parseFloat(MacTotal.textContent) +
-    
-//     parseFloat(keyboardTotal.textContent);
-//   console.log(allPrices);
-//   beforePrice.textContent = allPrices;
-//   console.log(allPrices)
-  
-
-  
-// // !Shipping section
-
-//   if (allPrices > 1250) {
-//       shippingPriceNumber.textContent = "Free delivery";
-//       shippingPrice.classList.remove("dolar");
-//     } else if(allPrices > 0) {
-//       shippingPriceNumber.textContent = "25.99";
-//       shippingPrice.classList.add("dolar");
-//     }else if(allPrices==0){
-//       shippingPriceNumber.textContent = "0"
-//     }
-  
-//     beforePrice.textContent = allPrices;
-
-//   //   !Tax section
-//    tax.textContent=allPrices * 0.18;
-
-//    if(allPrices==0){
-//       total.textContent="0"
-//    }else{
-//    total.textContent=allPrices + shippingPrice2 + allPrices * 0.18;
-//    }
-// }
+// Allproduct section
+console.log(allProduct.textContent) 
+let myNumber=Number((allProduct.textContent.match(/\d+/g)).join(""));
+console.log(myNumber,typeof myNumber)
+let OverAll=0
+const allPro=()=>{
+OverAll=Number(quantityMac)+Number(quantityKeyboard)+Number(quantityApple)
+    console.log(OverAll)
+    allProduct.textContent=`(${OverAll} Products)`  
+}
+allPro()
