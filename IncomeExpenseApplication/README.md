@@ -1,3 +1,37 @@
+I can try to write a README.md file for an income expense tracker application in JavaScript. Here is a possible draft:
+
+# Income Expense Tracker Application in JavaScript
+
+This is a simple web application that allows you to track your income and expenses and see your balance and budget. You can also visualize your transactions using charts and graphs.
+
+## Installation
+
+To install this application, you need to follow these steps:
+
+- Download the files index.html, style.css and script.js from this repository or clone it with the command `[git clone https://github.com/yourusername/RockPaperScissors-JavaScript.git](https://github.com/yucel1993/Java-Script.git)`.
+- Open the file index.html in your preferred browser.
+- Start adding your income and expenses.
+
+## Instructions
+
+The application is very easy to use. Just follow these steps:
+
+- To add a new transaction, click on the "Add Transaction" button at the top right corner of the screen.
+- Enter the amount and description of the transaction and select whether it is an income or an expense.
+- Click on the "Add" button to save the transaction.
+- The application will automatically update your balance and budget and show you a summary of your transactions in a table below.
+- You can also see your transactions in different charts and graphs by clicking on the "Charts" button at the top left corner of the screen.
+- You can switch between different views (pie chart, bar chart, line chart) by clicking on the icons at the bottom of the screen.
+- To delete a transaction, click on the "Delete" button next to it in the table view.
+- To edit a transaction, click on the "Edit" button next to it in the table view. You can change the amount, description or type of the transaction and click on the "Save" button to update it.
+
+## License
+
+This application is licensed under the MIT license. For more information, see the file LICENSE.md.
+Kopieren
+
+
+
 ## Welcome to JavaScript  Repository! 👋
 
 Thank you for visiting my projects! I'm thrilled to have you here, and I hope you find it interesting and helpful.
