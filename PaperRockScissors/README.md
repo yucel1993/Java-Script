@@ -1,3 +1,30 @@
+# RockPaperScissors-JavaScript-Anwendung
+
+Dies ist eine einfache Webanwendung, die das klassische Spiel Schere-Stein-Papier mit JavaScript implementiert. Der Benutzer kann gegen den Computer spielen und seine Punktzahl verfolgen.
+
+## Installation
+
+Um diese Anwendung zu installieren, müssen Sie folgende Schritte ausführen:
+
+- Laden Sie die Dateien index.html, style.css und script.js aus diesem Repository herunter oder klonen Sie es mit dem Befehl `[git clone https://github.com/yourusername/RockPaperScissors-JavaScript.git](https://github.com/yucel1993/Java-Script.git)`.
+- Öffnen Sie die Datei index.html in Ihrem bevorzugten Browser.
+- Viel Spaß beim Spielen!
+
+## Anleitung
+
+Das Spiel ist sehr einfach zu spielen. Folgen Sie einfach diesen Schritten:
+
+- Wählen Sie eine der drei Optionen aus: Schere, Stein oder Papier, indem Sie auf das entsprechende Symbol klicken.
+- Der Computer wählt zufällig eine der drei Optionen aus.
+- Die Regeln sind wie folgt: Schere schneidet Papier, Papier bedeckt Stein, Stein zerquetscht Schere. Wenn beide Spieler die gleiche Option wählen, ist es ein Unentschieden.
+- Die Punktzahl wird oben auf dem Bildschirm angezeigt. Jeder Gewinn bringt Ihnen einen Punkt, jeder Verlust kostet Sie einen Punkt und jedes Unentschieden bringt Ihnen keinen Punkt.
+- Um das Spiel neu zu starten, klicken Sie auf die Schaltfläche "Neu starten".
+
+## Lizenz
+
+Diese Anwendung ist unter der MIT-Lizenz lizenziert. Weitere Informationen finden Sie in der Datei LICENSE.md.
+
+
 ## Welcome to JavaScript  Repository! 👋
 
 Thank you for visiting my projects! I'm thrilled to have you here, and I hope you find it interesting and helpful.
