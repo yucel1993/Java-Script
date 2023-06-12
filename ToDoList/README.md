@@ -1,3 +1,33 @@
+# Todo List Application
+
+This application allows users to create and manage their todo list. Users can add new tasks, mark tasks as completed, and remove tasks from the list.
+
+## Features
+
+- Create tasks: Users can add new tasks to the todo list.
+- Mark tasks as completed: Users can mark tasks as completed to keep track of their progress.
+- Remove tasks: Users can remove tasks from the list when they are no longer needed.
+- Persistence: The application uses local storage to save the todo list, ensuring that tasks are retained even after closing the browser.
+
+## Getting Started
+
+To run the application locally, follow these steps:
+
+1. Clone the repository: `[git clone https://github.com/your-username/todo-list-app.git](https://github.com/yucel1993/Java-Script.git)`
+2. Navigate to the project directory: `cd todo-list-app`
+3. Open the index.html file in a web browser.
+4. Use the provided input field to add tasks to the list.
+5. Click on a task to mark it as completed.
+6. Click on the delete button next to a task to remove it from the list.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+
+
 ## Welcome to JavaScript  Repository! 👋
 
 Thank you for visiting my projects! I'm thrilled to have you here, and I hope you find it interesting and helpful.
