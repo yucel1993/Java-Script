@@ -1,3 +1,37 @@
+# Number Guess Game in JavaScript
+
+This is a simple JavaScript game that simulates a "Number Guess Game". The game is about the player trying to guess a randomly selected number.
+
+## Installation
+
+To install this game, you need to follow these steps:
+
+- Download the files index.html, style.css and script.js from this repository or clone it with the command `[git clone https://github.com/yourusername/RockPaperScissors-JavaScript.git](https://github.com/yucel1993/Java-Script.git)`.
+- Open the file index.html in your preferred browser.
+- Have fun playing!
+
+## Instructions
+
+The game is very easy to play. Just follow these steps:
+
+- The game randomly generates a secret number between 1 and 10.
+- The player's task is to guess the number by entering their guess in the input field.
+- After each guess, the game gives the player feedback on whether their guess was too high or too low.
+- If the player correctly guesses the number, the game ends and the player wins.
+- If the player runs out of guesses, the game ends and the player loses.
+- The game also shows the number of remaining tries of the player. The tries start at 3 and decrease by one with each incorrect guess.
+- If the player wants to start a new game, they can click on the "New Game" button, and the game will restart with a new secret number.
+
+## License
+
+This game is licensed under the MIT license. For more information, see the file LICENSE.md.
+
+
+
+
+
+
+
 ## Welcome to JavaScript  Repository! 👋
 
 Thank you for visiting my projects! I'm thrilled to have you here, and I hope you find it interesting and helpful.
