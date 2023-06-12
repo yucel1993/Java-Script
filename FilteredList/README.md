@@ -1,3 +1,29 @@
+# Filtered Items Application
+
+This application allows users to filter items based on their input. When the user types a filter keyword, the items that match the filter are displayed while the rest of the items disappear.
+
+## Features
+
+- Filter items: Users can type a filter keyword in the input field to filter the list of items.
+- Dynamic filtering: The application dynamically updates the displayed items as the user types.
+- Instant search: The filtered items are updated in real-time without the need to submit or reload the page.
+- User-friendly interface: The application provides a clean and intuitive interface for a seamless user experience.
+
+## Getting Started
+
+To run the application locally, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/your-username/filtered-items-app.git`
+2. Navigate to the project directory: `cd filtered-items-app`
+3. Open the index.html file in a web browser.
+4. Use the filter input field to type in your filter keyword and see the filtered items.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
 ## Welcome to JavaScript  Repository! 👋
 
 Thank you for visiting my projects! I'm thrilled to have you here, and I hope you find it interesting and helpful.
