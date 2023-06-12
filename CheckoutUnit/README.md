@@ -1,3 +1,30 @@
+# Checkout Application in JavaScript
+
+This is a simple web application that displays a shopping cart with products and allows the user to increase or decrease the number of products and calculate the total price of the products.
+
+## Installation
+
+To install this application, you need to follow these steps:
+
+- Download the files index.html, style.css and script.js from this repository or clone it with the command `[git clone https://github.com/yourusername/RockPaperScissors-JavaScript.git](https://github.com/yucel1993/Java-Script.git)`.
+- Open the file index.html in your preferred browser.
+- Add products to the cart or remove them and see the total price.
+
+## Instructions
+
+The application is very easy to use. Just follow these steps:
+
+- Click on the "+" or "-" button next to each product to increase or decrease the number of products.
+- The total price of the products will be automatically updated and displayed at the bottom of the screen.
+- To empty the cart, click on the "Empty Cart" button.
+- To go to checkout, click on the "Checkout" button.
+
+## License
+
+This application is licensed under the MIT license. For more information, see the file LICENSE.md.
+
+
+
 ## Welcome to JavaScript  Repository! 👋
 
 Thank you for visiting my projects! I'm thrilled to have you here, and I hope you find it interesting and helpful.
