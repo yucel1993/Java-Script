@@ -1,6 +1,7 @@
 # Code Generator
 It's a simple quarecode working after user enter the target website into input button.
 
+DemoLink:[CodeGenerator](https://yucel1993.github.io/Java-Script/CodeGenarator/index.html)
 
 ## Welcome to JavaScript  Repository! 👋
 
