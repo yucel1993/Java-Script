@@ -4,7 +4,7 @@
 
 This is a simple web application that allows you to track your income and expenses and see your balance and budget. You can also visualize your transactions using charts and graphs.
 
-<br>
+
 DemoLink: [Income-Assitant](https://yucel1993.github.io/Java-Script/Income-App-ofAssistant/index.html)
 ## Installation
 
