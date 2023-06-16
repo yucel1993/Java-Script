@@ -1,7 +1,8 @@
 # Number Guess Game in JavaScript
 
 This is a simple JavaScript game that simulates a "Number Guess Game". The game is about the player trying to guess a randomly selected number.
-
+<br>
+DemoLink: [GuessTheNumber](https://yucel1993.github.io/Java-Script/GuessTheNumber/index.html)
 ## Installation
 
 To install this game, you need to follow these steps:
