@@ -1,4 +1,4 @@
-#Code Generator
+# Code Generator
 It's a simple quarecode working after user enter the target website into input button.
 
 
