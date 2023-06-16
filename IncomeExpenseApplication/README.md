@@ -4,8 +4,7 @@
 
 This is a simple web application that allows you to track your income and expenses and see your balance and budget. You can also visualize your transactions using charts and graphs.
 <br>
-DemoLink:Income-Expense(https://yucel1993.github.io/Java-Script/IncomeExpenseApplication
-/index.html)
+DemoLink: Income-Expense (https://yucel1993.github.io/Java-Script/IncomeExpenseApplication/index.html)
 ## Installation
 
 To install this application, you need to follow these steps:
