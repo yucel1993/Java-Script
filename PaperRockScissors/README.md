@@ -1,6 +1,8 @@
-# 
-This is a simple web application that implements the classic game Rock-Paper-Scissors using JavaScript. The user can play against the computer and keep track of their score.
+# Paper Rock Scissors
 
+This is a simple web application that implements the classic game Rock-Paper-Scissors using JavaScript. The user can play against the computer and keep track of their score.
+<br>
+DemoLink:[PaperRockScissors](https://yucel1993.github.io/Java-Script/PaperRockScissors/index.html)
 ## Installation
 To install this application, follow these steps:
 
