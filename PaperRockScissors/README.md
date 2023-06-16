@@ -1,29 +1,24 @@
-# RockPaperScissors-JavaScript-Anwendung
-
-Dies ist eine einfache Webanwendung, die das klassische Spiel Schere-Stein-Papier mit JavaScript implementiert. Der Benutzer kann gegen den Computer spielen und seine Punktzahl verfolgen.
+# 
+This is a simple web application that implements the classic game Rock-Paper-Scissors using JavaScript. The user can play against the computer and keep track of their score.
 
 ## Installation
+To install this application, follow these steps:
 
-Um diese Anwendung zu installieren, müssen Sie folgende Schritte ausführen:
+Download the files index.html, style.css, and script.js from this repository or clone it using the command [git clone https://github.com/yourusername/RockPaperScissors-JavaScript.git](https://github.com/yucel1993/Java-Script.git).
+Open the index.html file in your preferred browser.
+Enjoy playing!
 
-- Laden Sie die Dateien index.html, style.css und script.js aus diesem Repository herunter oder klonen Sie es mit dem Befehl `[git clone https://github.com/yourusername/RockPaperScissors-JavaScript.git](https://github.com/yucel1993/Java-Script.git)`.
-- Öffnen Sie die Datei index.html in Ihrem bevorzugten Browser.
-- Viel Spaß beim Spielen!
+## Instructions
+The game is very easy to play. Just follow these steps:
 
-## Anleitung
+Choose one of the three options: Scissors, Rock, or Paper by clicking on the corresponding symbol.
+The computer randomly selects one of the three options.
+The rules are as follows: Scissors cuts Paper, Paper covers Rock, Rock crushes Scissors. If both players choose the same option, it's a draw.
+The score is displayed at the top of the screen. Each win earns you one point, each loss costs you one point, and each draw doesn't affect your score.
+To restart the game, click the "Restart" button.
+## License
 
-Das Spiel ist sehr einfach zu spielen. Folgen Sie einfach diesen Schritten:
-
-- Wählen Sie eine der drei Optionen aus: Schere, Stein oder Papier, indem Sie auf das entsprechende Symbol klicken.
-- Der Computer wählt zufällig eine der drei Optionen aus.
-- Die Regeln sind wie folgt: Schere schneidet Papier, Papier bedeckt Stein, Stein zerquetscht Schere. Wenn beide Spieler die gleiche Option wählen, ist es ein Unentschieden.
-- Die Punktzahl wird oben auf dem Bildschirm angezeigt. Jeder Gewinn bringt Ihnen einen Punkt, jeder Verlust kostet Sie einen Punkt und jedes Unentschieden bringt Ihnen keinen Punkt.
-- Um das Spiel neu zu starten, klicken Sie auf die Schaltfläche "Neu starten".
-
-## Lizenz
-
-Diese Anwendung ist unter der MIT-Lizenz lizenziert. Weitere Informationen finden Sie in der Datei LICENSE.md.
-
+This application is licensed under the MIT License. For more information, see the LICENSE.md file.
 
 ## Welcome to JavaScript  Repository! 👋
 
