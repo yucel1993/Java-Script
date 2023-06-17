@@ -1,0 +1,44 @@
+const input =document.getElementById("cal");
+const buttons =document.querySelectorAll(".content");
+buttons.forEach(button=>{
+    button.addEventListener("click",()=>{
+        const buttonText =button.textContent;
+        const currentInput =input.value;
+        if(buttonText==="AC"){
+        input.value="";
+        }else if(buttonText==="="){
+            try{
+                const result=eval(currentInput);
+                input.value=result;
+            }catch(err){
+                input.value="error";
+            }
+        }else if(buttonText==="+"){
+            input.value=currentInput + "+";
+        }else if(buttonText==="-"){
+            input.value=currentInput + "-";
+        }else if(buttonText==="*"){
+            input.value=currentInput + "*";
+        }else if(buttonText==="/"){
+            input.value=currentInput + "/";
+        }else {
+            input.value = currentInput + buttonText;
+        }
+    })
+    })
+
+    // Add event listener for Enter key press
+document.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+      const currentInput = input.value;
+  
+      try {
+        const result = eval(currentInput);
+        input.value = result;
+      } catch (err) {
+        input.value = "Error";
+      }
+    }
+  });
+
+    
