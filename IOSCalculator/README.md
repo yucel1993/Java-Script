@@ -2,7 +2,7 @@
 This is a simple calculator web application built with HTML, CSS, and JavaScript. It allows users to perform basic arithmetic calculations such as addition, subtraction, multiplication, and division.
 <br><br>
 DemoLink:[IOSCalculator](https://yucel1993.github.io/Java-Script/IOSCalculator/calculator.html)
-Calculator Screenshot
+
 
 ## Features
 Addition: Perform addition of numbers.
