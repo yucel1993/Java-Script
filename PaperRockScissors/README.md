@@ -6,7 +6,7 @@ DemoLink:[PaperRockScissors](https://yucel1993.github.io/Java-Script/PaperRockSc
 ## Installation
 To install this application, follow these steps:
 
-Download the files index.html, style.css, and script.js from this repository or clone it using the command [git clone https://github.com/yourusername/RockPaperScissors-JavaScript.git](https://github.com/yucel1993/Java-Script.git).
+Download the files index.html, style.css, and script.js from this repository or clone it using the command [git clone https://github.com/yucel1993/RockPaperScissors-JavaScript.git](https://github.com/yucel1993/Java-Script.git).
 Open the index.html file in your preferred browser.
 Enjoy playing!
 
