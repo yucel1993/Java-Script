@@ -18,7 +18,7 @@ input.value="";
 
 const getData=async(country)=>{
 
-    const APIKEY="c318e7277211e47858169a9ae63c3263";
+    const APIKEY="";
     const q=country;
     const units="metric"
 
