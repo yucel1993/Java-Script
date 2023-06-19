@@ -31,7 +31,8 @@ javascript
 
 <br>
 Copy code
-const APIKEY = 'YOUR_API_KEY';
+const APIKEY = 'YOUR_API_KEY'
+
 ## Contributions
 Contributions are welcome! If you have any suggestions or improvements for the Weather App, feel free to submit a pull request.
 
