@@ -6,7 +6,7 @@ DemoLink:[CheckoutUnit](https://yucel1993.github.io/Java-Script/CheckoutUnit/ind
 ## Installation
 
 To install this application, you need to follow these steps:
-(https://github.com/yucel1993/Java-Script.git)`.
+
 - Open the file index.html in your preferred browser.
 - Add products to the cart or remove them and see the total price.
 
