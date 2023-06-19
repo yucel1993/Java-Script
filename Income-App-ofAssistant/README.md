@@ -10,7 +10,7 @@ DemoLink: [Income-Assitant](https://yucel1993.github.io/Java-Script/Income-App-o
 
 To install this application, you need to follow these steps:
 
-- Download the files index.html, style.css and script.js from this repository or clone it with the command `[git clone https://github.com/yourusername/RockPaperScissors-JavaScript.git](https://github.com/yucel1993/Java-Script.git)`.
+- Download the files index.html, style.css and script.js from this repository or clone it with the command `[git clone https://github.com/yucel1993/RockPaperScissors-JavaScript.git](https://github.com/yucel1993/Java-Script.git)`.
 - Open the file index.html in your preferred browser.
 - Start adding your income and expenses.
 
