@@ -1,62 +1,41 @@
-# Checkout Application in JavaScript
+# Weather App
+The Weather App is a simple web application that allows users to check the weather conditions of a specific location. It retrieves weather data from the OpenWeatherMap API and displays it in a user-friendly format.
 
-This is a simple web application that displays a shopping cart with products and allows the user to increase or decrease the number of products and calculate the total price of the products.
-<br>
-DemoLink:[WeatherApp](https://yucel1993.github.io/Java-Script/WeatherApi/index.html)
-## Installation
+## Features
+Enter a city name to retrieve weather information
+Displays current temperature, humidity, and wind speed
+Shows an icon representing the weather conditions
+Uses the OpenWeatherMap API to fetch weather data
+Technologies Used
+HTML
+CSS
+JavaScript
+## Setup and Usage
+Clone the repository or download the source code.
+Open the index.html file in a web browser.
+Enter a city name in the input field and submit the form.
+The weather information will be displayed on the page.
+API Key
+### To access weather data, you need to obtain an API key from OpenWeatherMap. Follow these steps to get your API key:
 
-To install this application, you need to follow these steps:
+### Go to the OpenWeatherMap website and sign up for an account
 
-- Open the file index.html in your preferred browser.
-- Add products to the cart or remove them and see the total price.
+### After signing in, go to your account dashboard.
 
-## Instructions
+### Copy your API key.
 
-The application is very easy to use. Just follow these steps:
+### Open the app.js file in a text editor.
 
-- Click on the "+" or "-" button next to each product to increase or decrease the number of products.
-- The total price of the products will be automatically updated and displayed at the bottom of the screen.
-- To empty the cart, click on the "Empty Cart" button.
-- To go to checkout, click on the "Checkout" button.
+### Replace the value of the APIKEY variable with your own API key.
+### Copy code
+### const APIKEY = 'YOUR_API_KEY'
+
+## Contributions
+Contributions are welcome! If you have any suggestions or improvements for the Weather App, feel free to submit a pull request.
 
 ## License
+The Weather App is open source and available under the MIT License.
 
-This application is licensed under the MIT license. For more information, see the file LICENSE.md.
-
-
-
-## Welcome to JavaScript  Repository! 👋
-
-Thank you for visiting my projects! I'm thrilled to have you here, and I hope you find it interesting and helpful.
-
-## About Me
-Firstly, I want to let you know that I am a new learner in the world of programming and development. I'm passionate about exploring different languages and technologies, and this project represents a part of my learning journey. So, please keep in mind that I'm still growing and improving my skills.
-
-# What is in this repository ?
-In this Repository You will find the Website Designs I was working on such as: 
-
-- [Classic-Website](https://yucel1993.github.io/Classic-Website/)
-
-- [Netflix Survey Form](https://yucel1993.github.io/Netflix-RegisterForm/)
-
-- [Parallax-Website](https://yucel1993.github.io/Parallax-Website/)
-
-- [Google landing Page](https://yucel1993.github.io/Google-Landing-Page/)
-
-- [Portfolio-Excersize](https://yucel1993.github.io/Portfolio-Excersize/)
-
-
-## Check Out My Projects at Frontend Mentor
-If you enjoyed exploring this project, I invite you to check out my other projects as well. I am passionate about programming and have worked on a variety of exciting projects.
-
-Feel free to explore projects at your convenience. Each one offers a unique experience and showcases different aspects of my skills and interests.
-
-##Author
-<!-- - Frontend Mentor - [@AliDurul](https://www.frontendmentor.io/profile/DURUL-26) -->
-- Githup - [@yucel1993](https://github.com/yucel1993)
-
-## Feedback and Collaboration
-I value your feedback and suggestions. If you have any comments, questions, or ideas for improvement regarding this project or any of my other projects, please don't hesitate to reach out. I'm always open to collaboration and welcome the opportunity to work on exciting projects together.
-
-Thank you once again for visiting my project. I hope you have a wonderful experience exploring it, and I look forward to connecting with you soon!
-
+## Acknowledgements
+Weather data provided by OpenWeatherMap
+Icon images from Flaticon
