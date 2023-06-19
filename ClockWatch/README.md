@@ -2,8 +2,7 @@
 
 This is a simple web application that displays a shopping cart with products and allows the user to increase or decrease the number of products and calculate the total price of the products.
 <br>
-DemoLink:[AnalogWatch](https://yucel1993.github.io/Java-Script/ClockWatch
-/index.html)
+DemoLink:[AnalogWatch](https://yucel1993.github.io/Java-Script/ClockWatch/index.html)
 ## Installation
 
 To install this application, you need to follow these steps:
