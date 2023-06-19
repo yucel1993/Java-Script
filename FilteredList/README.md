@@ -14,7 +14,7 @@ DemoLink:[Filtered List](https://yucel1993.github.io/Java-Script/FilteredList/in
 
 To run the application locally, follow these steps:
 
-1. Clone the repository: `[git clone https://github.com/your-username/filtered-items-app.git](https://github.com/yucel1993/Java-Script.git)`
+1. Clone the repository: `[git clone https://github.com/yucel1993/filtered-items-app.git](https://github.com/yucel1993/Java-Script.git)`
 2. Navigate to the project directory: `cd filtered-items-app`
 3. Open the index.html file in a web browser.
 4. Use the filter input field to type in your filter keyword and see the filtered items.
