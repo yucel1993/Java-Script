@@ -1,4 +1,4 @@
-# Checkout Application in JavaScript
+# WeatherApi Application in JavaScript
 
 This is a simple web application that displays a shopping cart with products and allows the user to increase or decrease the number of products and calculate the total price of the products.
 <br>
