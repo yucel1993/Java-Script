@@ -14,7 +14,7 @@ DemoLink:[ToDoList](https://yucel1993.github.io/Java-Script/ToDoList/index.html)
 
 To run the application locally, follow these steps:
 
-1. Clone the repository: `[git clone https://github.com/your-username/todo-list-app.git](https://github.com/yucel1993/Java-Script.git)`
+1. Clone the repository: `[git clone https://github.com/yucel1993/todo-list-app.git](https://github.com/yucel1993/Java-Script.git)`
 2. Navigate to the project directory: `cd todo-list-app`
 3. Open the index.html file in a web browser.
 4. Use the provided input field to add tasks to the list.
