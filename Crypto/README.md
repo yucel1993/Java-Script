@@ -2,8 +2,7 @@
 This is a Crypto API project that retrieves and displays information about cryptocurrencies. It utilizes an external API to fetch data and presents it in a user-friendly manner.
 
 DemoLink:[Crypto
-](https://yucel1993.github.io/Java-Script/Crypto
-/index.html)
+](https://yucel1993.github.io/Java-Script/Crypto/index.html)
 
 ## Features
 Fetches cryptocurrency data from an external API.
