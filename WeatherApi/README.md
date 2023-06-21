@@ -19,7 +19,9 @@ Enter a city name in the input field and submit the form.
 The weather information will be displayed on the page.
 ### API Key
  To access weather data, you need to obtain an API key from OpenWeatherMap. Follow these steps to get your API key:
+ 
  Go to the OpenWeatherMap website and sign up for an account
+ 
  After signing in, go to your account dashboard.
  Copy your API key.
  Open the app.js file in a text editor.
