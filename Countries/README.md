@@ -6,7 +6,7 @@ DemoLink:[Countries](https://yucel1993.github.io/Java-Script/Countries/index.htm
 
 ## Features
 
-
+- Fetches data for all countries from the REST Countries API.
 - Sorts the countries alphabetically by name.
 - Populates a dropdown menu with the names of the countries.
 - Displays detailed information about the selected country.
