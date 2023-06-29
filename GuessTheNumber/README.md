@@ -8,8 +8,7 @@ DemoLink: [GuessTheNumber](https://yucel1993.github.io/Java-Script/GuessTheNumbe
 To install this game, you need to follow these steps:
 
 - Download the files index.html, style.css and script.js from this repository or clone it with the command `[git clone https://github.com/yucel1993/RockPaperScissors-JavaScript.git](https://github.com/yucel1993/Java-Script.git)`.
-- Open the file index.html in your preferred browser.
-- Have fun playing!
+
 
 ## Instructions
 
