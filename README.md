@@ -1,6 +1,11 @@
 # Java-Script
 Basic Javascript based  applications
 
+## NEWS API
+
+Pure Javascript
+<img src="./newsapi.gif"/>
+
 ## PaperRockScissors
 
 Pure Javascript
