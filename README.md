@@ -1,6 +1,11 @@
 # Java-Script
 Basic Javascript based  applications
 
+## guessTheNumber
+
+Pure Javascript
+<img src="./guess.gif"/>
+
 ## IOS Calculator APP
 Pure Javascript
 <img src="./calculator.gif"/>
