@@ -1,6 +1,15 @@
 # Java-Script
 Basic Javascript based  applications
 
+## IOS Calculator APP
+Pure Javascript
+<img src="./calculator.gif"/>
+
+## incomeExpense app
+
+Pure Javascript
+<img src="./income.gif"/>
+
 ## NEWS API
 
 Pure Javascript
