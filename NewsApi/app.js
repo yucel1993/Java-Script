@@ -12,7 +12,7 @@ btn.addEventListener("click", (e) => {
 })
 
 const getData = async (subject) => {
-  const APIKEY=""
+  const APIKEY="3a86dc7bdc254fb38cd93735d62d40d1"
     const response = await fetch(`https://newsapi.org/v2/everything?q=${subject}&apiKey=${APIKEY}`);
     const data = await response.json();
     const articles = data.articles;
