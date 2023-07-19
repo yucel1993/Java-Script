@@ -1,6 +1,17 @@
 # Java-Script
 Basic Javascript based  applications
 
+## Filtered List
+Pure Javascript
+Local storage is also active
+
+<img src="./filter.gif"/>
+
+
+## GithubFollowers
+Pure Javascript
+<img src="./followers.gif"/>
+
 ## guessTheNumber
 
 Pure Javascript
