@@ -1,6 +1,22 @@
 # Java-Script
 Basic Javascript based  applications
 
+
+## CheckOutUnit
+Pure Javascript
+<img src="./checkout.gif"/>
+
+## Crypto
+Pure Javascript
+<img src="./coin.gif"/>
+
+
+
+## Countries
+Pure Javascript
+<img src="./country.gif"/>
+
+
 ## Filtered List
 Pure Javascript
 Local storage is also active
